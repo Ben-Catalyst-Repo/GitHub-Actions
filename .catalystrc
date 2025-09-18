@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "20510000000012003",
+      "name": "Pipelines",
+      "domain": {
+        "id": "50033621933",
+        "name": "pipelines-60047188318.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60047188318",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

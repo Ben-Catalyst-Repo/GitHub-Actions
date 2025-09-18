@@ -1,0 +1,9 @@
+{
+	"name": "github-actions-deploy",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "manojkumar.baskaran@zohocorp.com",
+	"dependencies": {
+		"zcatalyst-sdk-node": "beta"
+	}
+}

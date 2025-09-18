@@ -1,0 +1,9 @@
+{
+  "functions": {
+    "targets": [
+      "github-actions-deploy"
+    ],
+    "ignore": [],
+    "source": "functions"
+  }
+}
