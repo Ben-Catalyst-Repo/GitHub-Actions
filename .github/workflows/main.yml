@@ -1,0 +1,25 @@
+name: Deploy to Zoho Catalyst
+
+on:
+  push:
+    branches:
+      - main  # Deploy when pushing to main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install Catalyst CLI
+        run: npm install -g zcatalyst-cli
+
+      - name: Deploy to Catalyst
+        run: catalyst deploy --verbose --project 25458000000221001 --token w_1000.cbc5244654c8a9a40e465b0c352d2c1a.c4e162d6e7092e651dd5faf482516ef1
